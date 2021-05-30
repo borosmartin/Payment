@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModifyActivity"
+    android:background="@drawable/img_background">
+
+    <EditText
+
+        android:id="@+id/updatePayerText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginBottom="500dp"
+        android:hint="@string/payer"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/updateReceiverText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginBottom="350dp"
+        android:hint="@string/reciever"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/font3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/updateAmountText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginBottom="200dp"
+        android:hint="@string/amount"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/updateCurrencyText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:hint="@string/currency"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/updateDateText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:hint="@string/payment_date"
+        android:inputType="date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <EditText
+
+        android:id="@+id/updateMethodText"
+        android:background="@drawable/edittext_background"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:hint="@string/payment_method"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="300dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/font3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/update_payment"
+        android:textSize="20sp"
+        android:fontFamily="@font/font1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateMethodText" />
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/delete_payment"
+        android:textSize="20sp"
+        android:fontFamily="@font/font1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/updateButton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp"
+        android:clickable="true"
+        android:onClick="back"
+        android:scaleX="1.25"
+        android:scaleY="1.25"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

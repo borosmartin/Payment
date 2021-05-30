@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="insert">Insert</string>
+    <string name="delete">Delete</string>
+    <string name="list">list</string>
+    <string name="actions">Actions</string>
+    <string name="cancel">Cancel</string>
+    <string name="update_payment">update payment</string>
+    <string name="delete_payment">delete payment</string>
+    <string name="insert_payment">Insert payment</string>
+    <string name="select_payment">select payment</string>
+    <string name="amount">Amount</string>
+    <string name="payer">Payer</string>
+    <string name="paymentdate">paymentDate</string>
+    <string name="paymentmethod">paymentMethod</string>
+    <string name="status">status</string>
+    <string name="reciever">Receiver</string>
+    <string name="payment_date">Payment Date</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="filter_payments">Filter Payments</string>
+    <string name="update_selected_payment">Update Selected Payment</string>
+    <string name="paymnet_project">Paymnet Project</string>
+    <string name="payerplaceholer">Alex</string>
+    <string name="receiver_placeholer">Robin</string>
+    <string name="amount_placeholer">3000</string>
+    <string name="method_placeholer">cash</string>
+    <string name="date_placeholer">1999.01.01</string>
+    <string name="curreny_placeholder">USD</string>
+    <string name="currency">Currency</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="payment_project">Payment Project</string>
+</resources>

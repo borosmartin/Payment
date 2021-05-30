@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/yellow"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/payerField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/payerplaceholer"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reciverField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/payerField"
+            android:padding="8dp"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/receiver_placeholer"/>
+
+        <TextView
+            android:id="@+id/amountField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/amount_placeholer"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp" />
+
+        <TextView
+            android:id="@+id/currencyField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/curreny_placeholder"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/amountField"
+            android:layout_toEndOf="@id/amountField" />
+
+        <TextView
+            android:id="@+id/methodField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/amountField"
+            android:layout_marginLeft="250dp"
+            android:layout_marginStart="250dp"
+            android:text="@string/method_placeholer"/>
+
+        <TextView
+            android:id="@+id/dateField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reciverField"
+            android:padding="8dp"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:text="@string/date_placeholer" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
